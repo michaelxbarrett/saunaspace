@@ -1,0 +1,75 @@
+/*-----------  Secondary Header  -------------*/
+div.page-header-2 {
+  background-color: $brand-red;
+  height: 200px;
+  text-align: center;
+  .container {
+    h1 {
+      color: $brand-white;
+      font-weight: 900;
+      text-align: center;
+      position: relative;
+      top: 60px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+
+/*--------------  Articles Home  ----------------*/
+div.page-blog {
+  article.post {
+    padding: 30px 0;
+    border-bottom:1px solid $brand-light-grey;
+    h2.entry-title {
+      font-size: 40px;
+      font-weight: 900;
+      color: $brand-dark-grey;
+      @include mobile {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+/*-------------  Articles Single  ----------------*/
+
+body.single-post {
+  .post-avatar {
+    text-align: center;
+    img {
+      height: 80px;
+      width: 80px;
+      border-radius: 50px;
+      border: 2px solid $brand-white;
+      position: relative;
+      bottom: 40px;
+    }
+  }
+  .post-titles {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+body.postid-1086 {
+  div.post-avatar {
+    display: none;
+  }
+  .post-titles {
+    padding-top: 30px;
+  }
+}
+.page-template-template-custom {
+  .page-header {
+    display: none;
+  }
+}
+.postid-3767 .product-tabs ul.nav li.col-md-2:last-child {
+  display: none;
+}

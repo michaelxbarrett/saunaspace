@@ -1,0 +1,29 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-default;
+  @extend .btn-secondary!optional;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bbbbbb;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: #bbbbbb;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: #bbbbbb;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: #bbbbbb;
+}

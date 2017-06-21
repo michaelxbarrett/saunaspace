@@ -1,0 +1,14 @@
+@mixin header2 {
+  font-size: 36px;
+  color: $brand-dark-grey;
+  font-weight: 800;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+@mixin header3 {
+  font-size: 20px;
+  color: $brand-dark-grey;
+  font-weight: 800;
+  margin: 15px 0;
+  padding: 5px 0;
+}

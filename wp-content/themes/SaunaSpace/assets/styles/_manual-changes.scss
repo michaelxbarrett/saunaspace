@@ -1,0 +1,100 @@
+body.woocommerce-cart .coupon input.button, td.actions input.button {
+    margin: 0!important;
+    border: 1px solid #f1f1f1;
+}
+.woocommerce-message a.button{
+	margin: 0!important;
+}
+a:hover{
+	color: #F13423 !important;
+}
+p.woochimp_checkout_checkbox{
+	padding: 0 0 5px!important;
+}
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order{
+	margin: 5px auto!important;
+}
+.woocommerce .form-row.form-row-last input.button{
+	margin: 10px 0 auto!important;
+}
+body.woocommerce-checkout .woocommerce form .form-row{
+	margin: auto 0!important;
+}
+.woocommerce ul.products li.product:hover .add_to_cart_button{
+	display: none!important;
+}
+.woocommerce form .shipping-calculator-form .form-row{
+	margin: 8px 0!important;
+}
+.woocommerce form .shipping-calculator-form .form-row input.input-text{
+	margin-top: 8px!important;
+	padding: 0 12px 0 6px!important;
+}
+body.woocommerce-checkout div.save-payment-method label:after{
+	border-top:none!important;
+	border-right:none!important;
+}
+body .main-footer a{
+	opacity: .65;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
+}
+.page-template-template-custom .page-header{
+	display: block!important;
+}
+.yotpo .yotpo-icon-default-star:before, .yotpo .yotpo-icon-star:before{
+	font-size: 10px!important;
+	padding: 2px!important;
+}
+@media(max-width: 760px){
+	div.shop-top .row .shop-top-1 span{
+		top: 26%;
+		bottom: auto;
+	}
+}
+
+#woochimp_registration_form_widget table{
+	margin: 0 auto;
+}
+#woochimp_registration_form_widget table tbody{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	padding: 0px 0 40px;
+	box-sizing:border-box;
+}
+
+#woochimp_registration_form_widget table tbody input[type='text']{
+	padding: 8px 0 8px 22px;
+	box-sizing:border-box;
+	color: #f13423;
+	outline:none;
+	border:none;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	min-width: 220px;
+}
+#woochimp_registration_form_widget table tbody button{
+	border:none;
+	outline:none;
+	color:#ffffff;
+	background: #f13423;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: 8px 0;
+	box-sizing:border-box;
+	text-align: center;
+	min-width: 112px;
+}
+#woochimp_widget_success{
+	display: block!important;
+	color: #ffffff!important;
+	font-size: 20px!important;
+	text-align: center!important;
+}
+#woochimp_widget_success + tr{
+	display: none;
+}

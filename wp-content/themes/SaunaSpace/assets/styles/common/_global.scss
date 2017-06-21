@@ -1,0 +1,76 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+body {
+  font-family: $main-font;
+  color: $brand-text;
+  a {
+    color: #4f4f4f;
+  }
+  .main-footer {
+    a {
+  color: #efefef!important;
+    }
+  }
+
+  p {
+    font-size: 	15px;
+    line-height: 1.8;
+    font-weight: 300;
+    font-family: $main-font;
+  }
+}
+abbr[data-original-title], abbr[title] {
+  cursor: default; 
+  border-bottom: none;
+}
+
+.btn-red {
+  @include button-red;
+}
+.btn-white {
+  @include button-white;
+}
+.header2 {
+  @include header2;
+}
+.header3 {
+  @include header3;
+}
+
+#hmenu_load_2 .hmenu_main_holder {
+  margin-top: 0!important;
+}
+
+input[type='radio'] {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  border:1px solid #ccc;
+  background-color: #fff;
+  border-radius:50%;
+  outline:none;
+  top: 6px!important;
+  position: relative!important;
+
+}
+
+input[type='radio']:hover {
+  box-shadow:0 0 5px 0px grey inset;
+}
+
+input[type='radio']:before {
+  content:'';
+  display:block;
+  width:55%;
+  height:55%;
+  margin: 25% auto;    
+  border-radius:100%;    
+}
+input[type='radio']:checked:before {
+  background: $brand-red;
+}
