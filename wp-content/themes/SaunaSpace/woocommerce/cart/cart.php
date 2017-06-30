@@ -165,8 +165,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 </div>
 
 </form>
-<div class="cart-terms-statement">
-	<div class="row">
+<div class="container cart-terms-statement">
+	<div class="container row">
 		<div class="alignright">
 			<h4>BY PLACING YOUR ORDER YOU AGREE TO FOLLOW OUR <a title="Terms of Use" href="/terms-of-use" target="_blank">TERMS OF USE</a> &amp; <a title="Privacy Policy" href="/privacy" target="_blank">PRIVACY POLICY</a></h4>
 		</div>
