@@ -24,6 +24,21 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+		  setTimeout(function(){
+
+			  $('.yotpo-regular-box').each(function(i, obj) {
+				 var current_item = $(this).attr('data-review-id');
+				//  console.log(current_item);
+				 var title = $(this).find('.content-title');
+				 var hearts = $(this).find('.yotpo-review-stars');
+				 var main  = $(this).find('.yotpo-main');
+				 var header = $(this).find('.yotpo-header');
+				 $(main).append(header);
+				 $(title).prepend(hearts);
+			  });
+
+
+			}, 3000);
       }
     },
     // Home page

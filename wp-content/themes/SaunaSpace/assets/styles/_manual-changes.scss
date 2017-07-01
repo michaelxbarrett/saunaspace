@@ -98,3 +98,54 @@ body .main-footer a{
 #woochimp_widget_success + tr{
 	display: none;
 }
+
+
+//Yotpo overrides
+.yotpo .yotpo-review .yotpo-header .yotpo-review-stars .yotpo-icon, .yotpo .yotpo-comment .yotpo-header .yotpo-review-stars .yotpo-icon, .yotpo .yotpo-question .yotpo-header .yotpo-review-stars .yotpo-icon {
+		font-family: 'Glyphicons Halflings'!important;
+		display: block;
+
+}
+body  {
+	.yotpo-main, .content-title, .yotpo div, .yotpo span, .yotpo p, .yotpo a, .yotpo img, .yotpo i, .yotpo strong, .yotpo sup, .yotpo ul, .yotpo li, .yotpo form, .yotpo label {
+		text-align: center;
+	}
+}
+body .yotpo-review-stars {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 1.3rem!important;
+	.pull-left {
+		float: none!important;
+	}
+}
+.woocommerce .yotpo .yotpo-icon-default-star:before, .woocommerce .yotpo .yotpo-icon-star:before {
+	font-family: 'Glyphicons Halflings'!important;
+	content: "\e005"!important;
+	font-size: 20px!important;
+}
+body .yotpo .yotpo-review .yotpo-main .content-title, body .yotpo .yotpo-comment .yotpo-main .content-title, body .yotpo .yotpo-question .yotpo-main .content-title {
+	 display: block;
+    width: 100%;
+    clear: both;
+    float: none!important;
+        font-size: 20px !important;
+    text-transform: uppercase;
+    padding-top: 5px;
+    line-height: 1.2;
+}
+
+
+.yotpo .yotpo-review .yotpo-header .yotpo-header-element {
+	float: left;
+	margin-bottom: 1rem;
+}
+
+body .yotpo-footer {
+	clear:both;
+
+}
+
+body .yotpo-header {
+	margin-top: 1rem !important;
+}
