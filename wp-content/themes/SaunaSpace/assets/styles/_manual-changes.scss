@@ -5,9 +5,6 @@ body.woocommerce-cart .coupon input.button, td.actions input.button {
 .woocommerce-message a.button{
 	margin: 0!important;
 }
-a:hover{
-	color: #F13423 !important;
-}
 p.woochimp_checkout_checkbox{
 	padding: 0 0 5px!important;
 }
@@ -19,7 +16,6 @@ p.woochimp_checkout_checkbox{
 	margin: 10px 0 auto!important;
 }
 body.woocommerce-checkout .woocommerce form .form-row{
-	margin: auto 0!important;
 }
 .woocommerce ul.products li.product:hover .add_to_cart_button{
 	display: none!important;
@@ -96,5 +92,19 @@ body .main-footer a{
 	text-align: center!important;
 }
 #woochimp_widget_success + tr{
+	display: none;
+}
+
+.woocommerce-Address {
+	address {
+		margin-top: 20px;
+	}
+}
+
+#tm-epo-totals {
+	display: none!important;
+}
+
+.sku_wrapper {
 	display: none;
 }
