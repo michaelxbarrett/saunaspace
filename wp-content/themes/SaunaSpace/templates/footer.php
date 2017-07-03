@@ -55,7 +55,7 @@
           <a href="/privacy/"><li>privacy</li></a> •
           <a href="/disclaimer/"><li>disclaimer</li></a> •
           <a href="/trademarks/"><li>trademarks</li></a> •
-          <a class="referral" href="https://saunaspace.leaddyno.com/"><li>referral partner</li></a>
+          <a href="https://saunaspace.leaddyno.com/"><li>referral partner</li></a>
         </u/>
       </div>
     </div>

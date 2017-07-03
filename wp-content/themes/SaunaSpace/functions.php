@@ -289,12 +289,6 @@ add_action('woocommerce_after_checkout_form', 'woocommerce_checkout_coupon_form'
 
 
 
-
-//Move Star Rating down below Add to Cart Button on Product pages
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10 );
-add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 40 );
-
-
 // Change Shipping Fields Order - Still Broken
 /*
 add_filter("woocommerce_checkout_fields", "order_fields");

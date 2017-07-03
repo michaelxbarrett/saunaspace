@@ -1972,12 +1972,6 @@ body.woocommerce-checkout .save-payment-method label:after {
   top: 3px!important;
   border: 3px solid #f13423!important;
 }
-
-.woocommerce form .form-row .required {
-    color: $brand-red;
-    text-decoration: none;
-}
-
 #woochimp_user_preference {
   float: left;
   margin-right: 11px;
@@ -2003,7 +1997,8 @@ body.woocommerce-checkout .woocommerce form .form-row input.input-text, body.woo
   font-weight: 300; 
   font-size: 16px; 
   border-radius: 3px; 
-  border-style: solid;  
+  border-style: solid; 
+  border: 1px solid rgba(0,0,0,.1); 
   height: 60px;
   
 }
@@ -2037,7 +2032,7 @@ div.woocommerce-billing-fields > h3 {
     margin-bottom: -15px;
   }
 h3#ship-to-different-address {
-  padding-top: 42px;
+  padding-top: 20px;
 }
 body.woocommerce-checkout .woocommerce form .form-row {
   padding: 0;
@@ -2046,10 +2041,7 @@ body.woocommerce-checkout .woocommerce form .form-row {
 #order_comments_field {
   margin-top: -15px; 
   margin-bottom: 25px;
-  label {
-    top: 54px;
   }
-}
 body.woocommerce-checkout .save-payment-method label:after {
     top: 3px; 
     border: 3px solid #f13423; 
@@ -2077,12 +2069,11 @@ body.woocommerce-checkout .save-payment-method label:after {
      }
     .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
       padding: 19px 12px 0 6px!important; 
-      font-weight: 300; 
+      font-weight: 500; 
       font-size: 16px; 
       border-radius: 3px; 
       border-style: solid;
-      border: 1px solid rgba(0,0,0,.1); 
-      height: 60px;
+      border: 1px solid rgba(0,0,0,.1); height: 60px;
       }
       .woocommerce form .form-row {
         padding: 0; margin: 0 0 -20px;
@@ -2137,7 +2128,7 @@ body.woocommerce-cart .woocommerce form .form-row input.input-text, .woocommerce
   margin-top: 30px;
 }
 body.woocommerce-cart .woocommerce .shipping-calculator-form button.button {
-  margin: 3px 0!important;
+  margin-top: 30px!important;
  }
  body.my-account .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
     margin: 36px 0!important;
@@ -2155,6 +2146,7 @@ body.woocommerce-page .ajax_add_to_cart {
   border: none!important;
 }
 #coupon_code {
+  margin-top: 36px;
 }
 
 

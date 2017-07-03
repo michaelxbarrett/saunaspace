@@ -30,7 +30,7 @@
   }
   .main-footer {
     background-color: $brand-dark-grey;
-    color: $brand-light-grey;
+    color: $brand-white;
     padding: 40px 0;
     .row {
       .col-md-2 {
@@ -92,17 +92,10 @@
     .footer-low {
       text-align: center;
       padding-top: 25px;
-      opacity: .65;
-      a {
-      opacity: 1;
-      }
     }
     .footer-low2 {
       text-align: center;
       color: #6E6E6E;
-      .referral {
-        color: $brand-red!important;
-      }
       ul {
         margin: 0;
         padding: 0;
